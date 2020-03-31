@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "tabletopmonkeys": {
+      "hosting": {
+        "TabletopMonkeys": [
+          "tabletopmonkeys"
+        ]
+      }
+    }
+  }
+}

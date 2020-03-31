@@ -1,1 +1,22 @@
-<p>log-in-page works!</p>
+    <mat-card class="login-card">
+        <mat-card-header>
+            <mat-card-title>Login</mat-card-title>
+            <mat-card-subtitle>Sign in to Tabletop Monkeys</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <form>
+                <mat-form-field class="full-width">
+                    <mat-label>Email address</mat-label>
+                    <input matInput #emailAddress>
+                </mat-form-field>
+
+                <mat-form-field class="full-width">
+                    <mat-label>Password</mat-label>
+                    <input matInput #password type="password">
+                </mat-form-field>
+            </form>
+            <button mat-button (click)="doLogin()">Login</button>
+            <button mat-button (click)="doShowSignup()">Sign up</button>
+
+        </mat-card-content>
+    </mat-card>
